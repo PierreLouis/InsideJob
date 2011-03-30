@@ -86,6 +86,10 @@
 92,Cake Block
 93,Redstone Repeater (off)
 94,Redstone Repeater (on)
+95,Lumber Jack's Chest
+96,Miner's Chest
+97,Delivery Man's Chest
+98,Farmer's Chest
 256,Iron Spade
 257,Iron Pickaxe
 258,Iron Axe
@@ -206,3 +210,5 @@
 355,Bed
 2256,Gold Record
 2257,Green Record
+3256, Gold Scepter
+3257,Iron Scepter
