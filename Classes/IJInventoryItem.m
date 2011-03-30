@@ -97,6 +97,38 @@
 		index = 0;
 		atlasOffset = NSMakePoint(445, pixelsPerRow*14+18);
 	}
+	//START MineColony
+	else if (itemId == 3256)
+	{
+		index = 0;
+		atlasOffset = NSMakePoint(450+pixelsPerColumn, pixelsPerRow*14+12);
+	}
+	else if (itemId == 3257)
+	{
+		index = 0;
+		atlasOffset = NSMakePoint(483+pixelsPerColumn, pixelsPerRow*14+12);
+	}
+	else if (itemId == 95)
+	{
+		index = 0;
+		atlasOffset = NSMakePoint(597+pixelsPerColumn, pixelsPerRow*14+13);
+	}
+	else if (itemId == 96)
+	{
+		index = 0;
+		atlasOffset = NSMakePoint(636+pixelsPerColumn, pixelsPerRow*14+13);
+	}
+	else if (itemId == 97)
+	{
+		index = 0;
+		atlasOffset = NSMakePoint(519+pixelsPerColumn, pixelsPerRow*14+13);
+	}
+	else if (itemId == 98)
+	{
+		index = 0;
+		atlasOffset = NSMakePoint(558+pixelsPerColumn, pixelsPerRow*14+13);
+	}
+	//END MineColony
 	else
 	{
 		NSLog(@"%s error: unrecognized item id %d", __PRETTY_FUNCTION__, itemId);
